@@ -19,7 +19,7 @@ export default function App() {
   if (data.loading) {
     document.title = 'Counting potential earth HAZARDS…';
 
-  console.log(data)
+  console.log(data.loading)
     return (
       <p>
         Getting data from NASA right now to check whether something from space
